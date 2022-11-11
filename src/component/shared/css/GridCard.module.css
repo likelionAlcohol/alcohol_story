@@ -1,0 +1,36 @@
+.card{
+    padding: 20px 20px 20px 10px;
+    font-size: 14px;
+}
+
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.categoryName {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+
+.scrollList {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+.scrollItem {
+    flex: 0 0 auto;
+    padding-left: 10px;
+}
+
+.infoName {
+    font-weight: 600;
+}
