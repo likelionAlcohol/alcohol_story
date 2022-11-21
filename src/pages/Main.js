@@ -1,13 +1,14 @@
 import MainCard from '../component/main/MainCard';
-import styles from './MainCard.module.css';
-import {BrowserView, MobileView} from 'react-device-detect';
+import ContentsLayout from '../component/shared/js/ContentsLayout';
 
 function Main(){
-return(
-    <>
-        <MainCard/>
-    </>
-)
+    return(
+        <div>  
+            <ContentsLayout activeHeader="main">
+                <MainCard/>
+            </ContentsLayout>
+        </div>
+    )
 
 }
 

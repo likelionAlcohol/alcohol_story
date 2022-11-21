@@ -1,0 +1,67 @@
+.scrollList {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 11px 0px;
+
+    -ms-overflow-style: none;
+
+}
+
+.scrollList::-webkit-scrollbar{
+    display:none;
+  }
+  
+
+.scrollItem {
+    flex: 0 0 auto;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+
+
+.itemBox {
+    padding: 10px 20px 20px;
+}
+
+.itemBoxInfo {
+    display: grid;
+    grid-template-columns: 200px 100px;
+    place-items: center start;
+}
+
+.itemBoxInfo > div {
+    padding-bottom: 9px;
+}
+
+.reviewTitle {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.reviewDate {
+    font-size: 13px;
+    font-weight: 400;
+    color: #868686;
+
+}
+.reviewNickname {
+    font-size: 12px;
+    font-weight: 400;
+    color: #868686;
+
+}
+
+.reviewContents {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    word-wrap: normal;
+}
+

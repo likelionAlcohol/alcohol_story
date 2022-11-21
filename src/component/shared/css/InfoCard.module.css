@@ -1,0 +1,114 @@
+
+.infoCard {
+    margin: 30px;
+}
+
+.container, .mainInfo {
+    margin-bottom: 30px;
+}
+
+.more {
+    text-decoration: none;
+    color: #0070C9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.mainInfoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.category{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.25px;
+
+}
+
+.star{
+
+}
+
+.heart{
+    filter: opacity(0.5) drop-shadow(0 0 0 black);
+
+}
+
+.subInfo{
+
+}
+
+
+.subTitle{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.detailTitle{
+    color: #848484;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.detailContents {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.detailNote {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.image {
+    width: 334px;
+    height: 444px;
+    margin: 20px 0px;
+}
+
+.detailBox {
+    margin-top: 8px;
+}
+
+.subDetail {
+    margin: 5px 0px;
+}
+
+/* review */
+
+.reviewHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitle {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.more {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0070C9;
+}
