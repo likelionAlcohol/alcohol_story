@@ -67,8 +67,8 @@ return (
         <Slide img={img2}/>
         <Slide img={img3}/>
       </SliderContainer>
-      <Button onClick={prevSlide}>Previous Slide</Button>
-      <Button onClick={nextSlide}>Next Slide</Button>
+      {/* <Button onClick={prevSlide}></Button>
+      <Button onClick={nextSlide}></Button> */}
     </Container>
   );
 }

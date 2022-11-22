@@ -1,20 +1,29 @@
 import styles from '../css/InfoCard.module.css';
 import ReviewCard from './ReviewCard';
 import infoImage from '../../../data/infoImage.jpg';
-import heartIcon from '../../../data/heart.png';
-import { BiSave } from 'react-icons/bi';
+import HeartButton from '../../information/heartButton';
 import starGrey from '../../../data/starGrey.png';
 import {Link} from 'react-router-dom';
+import {useState} from 'react';
 
 
 function InfoCard(){
+
+    const [like, setLike] = useState(false)
+    
+    function toggleLike(){
+        setLike(!like);
+    }
+
     return(
         <div className={styles.infoCard}>
-            <img  className={styles.image} src={infoImage} alt={`information_image`}/>
+            <div className={styles.imageBox}>
+                <img  className={styles.image} src={infoImage} alt={`information_image`}/>
+            </div>
             <div className={styles.mainInfo}>
                 <div className={styles.mainInfoHeader}>
                     <div className={styles.title}>로얄 살루트 21년 산</div>
-                    <img src={heartIcon} alt='찜하기' className={styles.heart}></img>
+                    <HeartButton like={like} onClick={toggleLike}/>
                 </div>
                 <div className={styles.subHeader}>
                     <div className={styles.category}>위스키</div>

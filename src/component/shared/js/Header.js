@@ -5,8 +5,6 @@ import {useState} from 'react';
 import styled from 'styled-components';
 import React from 'react';
 import back from '../../../data/back.png'; 
-import searchIcon from '../../../data/searchIcon.png';
-import searchIconWhite from '../../../data/searchIconWhite.png';
 
 
 function Header({activeHeader}){
@@ -25,7 +23,7 @@ function Header({activeHeader}){
         <Container style={activeHeader==='main'?{backgroundColor:'black'}:{backgroundColor:'white'}}>
             <IMG src={back} onClick={()=>navigate(-1)} style={activeHeader==='recommendation'?{display:'none'}:(activeHeader==='main'?{display:'none'}:{display:'block'})}/>
             {activeHeader==='main'?<Logo to='/' style={{color:'white'}}>술 이야기</Logo>:(activeHeader==='recommendation'?<Logo to='/'>술 이야기</Logo>:<Back onClick={()=>navigate(-1)}>이전</Back>)}
-            <Link to='#'><Search src={activeHeader==='main'?{searchIconWhite}:{searchIcon}}/></Link>
+            <Link to='#'><Search src={activeHeader==='main'?"data/searchIconWhite.png":"data/searchIcon.png"}/></Link>
             <Link to='#'><Profile src={profile_image}/></Link>
         </Container>
     )

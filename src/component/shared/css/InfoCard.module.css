@@ -79,11 +79,19 @@
     font-weight: 400;
 }
 
+.imageBox {
+ display: flex;   
+ align-items: center;
+ justify-content: center;
+}
+
 .image {
     width: 334px;
     height: 444px;
     margin: 20px 0px;
 }
+
+
 
 .detailBox {
     margin-top: 8px;
