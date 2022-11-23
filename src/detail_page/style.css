@@ -1,0 +1,262 @@
+header{
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+}
+footer {
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+aside{
+    margin: 0;
+    padding: 5px;
+    color: #ffffff;
+}
+section{
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    color:black;
+}
+
+header #box1 {
+    flex:11;
+    font-weight:bolder;
+}
+header #box2 {
+    flex:1;
+    font-weight:bolder;
+    text-align: right;
+}
+header #box3 {
+    flex:1;
+    font-weight:bolder;
+    text-align: right;
+}
+
+header #box4 {
+    flex:1;
+    text-align: right;
+    
+}
+
+.hero {
+    display:flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    color:black;
+    border-bottom: solid 3px black;
+    justify-content: baseline;
+}
+.hero #box1{
+    font-weight:bolder;
+    font-size:20pt;
+    flex:1;
+}
+.hero #box2{
+    flex:8;
+    text-align: left;
+    margin-left: 10px;
+}
+.hero #box3{
+    flex:4;
+    text-align: right;
+}
+
+#alcoholTitle {
+    display:flex;
+
+}
+
+#alcoholTitle #box1 {
+    flex:8;
+    text-align: center;
+    font-weight:bolder;
+    font-size:34px;
+    color:black;
+}
+
+#alcoholTitle #box2 {
+    flex:5;
+    
+}
+
+#alcoholPlacement {
+    height: 400px;
+    background-image: url(img/wisky.png);
+    background-size:contain;
+    border-radius: 5px;
+
+}
+
+#alcoholDescribe {
+    color:black;
+    font-size:15pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+#follow {
+    border-radius: 2px;
+    background-color:black;
+    color: whitesmoke;
+    width:100%;
+
+}
+.content {
+    /* display:flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    align-items:baseline; */
+    margin: 0;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 13px;
+}
+
+.titleWrite {
+    color:black;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+
+.titleText {
+    width:90%;
+    height:30px;
+    background-color:#F2F2F2;
+    border-radius: 4px;
+    border:0px;
+}
+
+.content #box1{
+    font-weight:bolder;
+    font-size:20pt;
+    flex:8;
+}
+.content #box2{
+    flex:1;
+    font-size:8pt;
+    color:lightgray
+}
+.hashtag {
+
+    border-radius: 50px;
+}
+
+.sidebar {
+        width: 90%;
+        max-width: 1240px;
+        margin: 0 auto;
+        
+}
+
+.introPhoto {
+
+        min-height: 40vh;
+        background-image: url('img/wisky.png');
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+        padding:0 15px
+
+
+}
+
+.imageTitle h2 {
+    position:absolute;
+    bottom:25px;
+    left:5px;
+}
+.imageTitle h4 {
+    position:absolute;
+    bottom:0;
+    left:5px;
+}
+
+.go-back{
+    position:absolute;
+    top:15px;
+    left:10px;
+    animation:scrollLeft;
+
+}
+.go-back:hover{
+    position:absolute;
+    top:15px;
+    left:10px;
+
+}
+.saveDrink {
+    position:absolute;
+    right:22px;
+    bottom:10px;
+}
+
+.photoTitle {
+    color:black;
+    font-weight: bolder;
+    margin-bottom:15px;
+}
+
+.qrCode {
+    min-height: 40vh;
+    text-align: center;
+
+}
+
+.describe {
+    text-align: center;
+    color:black;
+    margin-top:20px;
+}
+.contentText {
+    width:90%;
+    height:100px;
+    background-color: #F2F2F2;
+    border: 0px;
+    border-radius: 4px;
+    text-align:center;
+}
+.photoInput {
+    width: 90%;
+    height:200px;
+    background-color:#F2F2F2 ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.addPageButton {
+    border-radius: 4px;
+    background-color: #6D6D6D;
+    height:50px;
+    width:90%;
+    color:whitesmoke;
+    margin-top: 20px;
+}
+.finish {
+    border-radius: 4px;
+    background-color: black;
+    height:50px;
+    width:90%;
+    color:whitesmoke;
+    margin-top: 20px;
+}
+
+
+
+  h1 {
+    font-size:14px;
+  }
+  
