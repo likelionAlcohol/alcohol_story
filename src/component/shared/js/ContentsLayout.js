@@ -4,12 +4,9 @@ import {useState} from 'react';
 
 
 function ContentsLayout({children, activeHeader}){
-
-
-
     return(
         <div className={styles.layout}>
-            <Header activeHeader={activeHeader}/>
+            <Header className={styles.header} activeHeader={activeHeader}/>
             <div className={styles.container}>{children}</div>
         </div>
     )
