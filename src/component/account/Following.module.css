@@ -1,0 +1,21 @@
+.userInformation{
+    display: grid;
+    grid-template-columns: 40px 100px 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.userCount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userInformation > img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+

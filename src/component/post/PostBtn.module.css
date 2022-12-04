@@ -1,0 +1,25 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.add {
+    display: flex;
+    background: black;
+    color: white;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.complete{
+    display: flex;
+    background: #0070C9;
+    color: white;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}

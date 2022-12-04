@@ -73,10 +73,9 @@ max-height: 40px;
 
 const Profile = styled.img`
 flex: 1;
-width: auto;
-height: auto;
-max-width: 35px;
-max-height: 35px;
+width: 35px;
+height: 35px;
+object-fit: cover;
 `
 
 export default Header;
