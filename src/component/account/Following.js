@@ -2,12 +2,19 @@ import accountProfile from '../../data/accountProfile.png';
 
 import styled from 'styled-components';
 import styles from '../../component/account/Following.module.css';
-
+import {useState} from 'react';
 
 
 function Following(){
+    const [follow,setFollow ] = useState(false);
+
+    function followClick(){
+        setFollow(!follow);
+        console.log(follow);
+    }
+
     return(
-        <div>
+        <div className={styles.container}>
             <div className={styles.userInformation}>
                 <img src={accountProfile} alt='프로필 사진' className={styled.profileImage}/>
                 <div className={styles.userItem}>
@@ -29,10 +36,8 @@ function Following(){
                     </div>
             </div>
             </div>
-            <div>
-                <form>
-                <input type="button" value="팔로우" className={styles.followBtn}/>
-                </form>
+            <div className={styles.buttons}>
+                <input type="button" value="팔로우" className={follow? styles.followClicked : styles.followBtn} onClick={followClick}/>
                 <div className={styles.message}>
                     메시지
                 </div>

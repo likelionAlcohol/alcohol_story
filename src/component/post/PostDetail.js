@@ -44,7 +44,7 @@ function WritingPage(){
         </div>
 
         <div className={styles.mainText}>
-            <textarea className={styles.contents}/>
+            <textarea className={styles.contents} placeholder='내용을 입력하세요'/>
         </div>
 
         <PostBtn/>

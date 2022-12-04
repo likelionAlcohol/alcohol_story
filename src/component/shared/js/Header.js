@@ -13,13 +13,6 @@ function Header({activeHeader}){
 
 
     return(
-        // <div className={styles.container}>
-        //     {{activeHeader}==='main'||'recommendation'?<Link to="/" className={styles.logo}>술 이야기</Link>:<Link to="/" className={styles.logo}>이전</Link>}
-        //     <BiSearch className={styles.search}/>
-        //     <img src={profile_image} alt="프로필 사진" className={styles.profile}/>
-        // </div>
-
-
         <Container style={activeHeader==='main'?{backgroundColor:'black'}:{backgroundColor:'white'}}>
             <IMG src={back} onClick={()=>navigate(-1)} style={activeHeader==='recommendation'?{display:'none'}:(activeHeader==='main'?{display:'none'}:{display:'block'})}/>
             {activeHeader==='main'?<Logo to='/' style={{color:'white'}}>술 이야기</Logo>:(activeHeader==='recommendation'?<Logo to='/'>술 이야기</Logo>:<Back onClick={()=>navigate(-1)}>이전</Back>)}

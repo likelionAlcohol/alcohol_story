@@ -50,6 +50,6 @@
     line-height: 22px;
 }
 
-.mainText > textarea:focus {
+.contents:focus {
     outline: none;
 }

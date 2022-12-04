@@ -1,3 +1,9 @@
+.container {
+    height: 138px;
+    font-family: 'Pretendard';
+    border-bottom: 1px solid #848484;;
+}
+
 .userInformation{
     display: grid;
     grid-template-columns: 40px 100px 200px;
@@ -12,6 +18,7 @@
     align-items: center;
 }
 
+
 .userInformation > img{
     width: 30px;
     height: 30px;
@@ -19,3 +26,57 @@
 }
 
 
+.userId {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.job {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #848484;
+}
+
+.postingCount, .followerCount, .followingCount {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.postingText, .followerText, .follwingText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #848484;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.followBtn {
+    background: #D9D9D9;
+    padding: 3px 66px;
+    border: 3px solid #D9D9D9;
+    font-family: 'Pretendard';
+}
+
+.followClicked{
+    background: black;
+    padding: 3px 66px;
+    color: white;
+}
+
+.message {
+    background: #D9D9D9;
+    padding: 3px 66px;
+}
