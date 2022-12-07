@@ -1,0 +1,58 @@
+/* card image */
+
+.cardImage {
+min-width:100%;
+min-height:100%;
+max-width:100%;
+max-height:100%;
+z-index: 0;
+mask-image: linear-gradient(to bottom, black, black 60%, transparent);
+-webkit-mask-image: linear-gradient(to bottom, black, black 60%, transparent);
+}
+
+
+
+/* card 위 text */
+
+.containerInfo {
+    color: #FFFFFF;
+    z-index: 20;
+    font-family: 'Pretendard';
+}
+
+.profileBox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: grid;
+    grid-template-columns: 25px 195px 20px;
+    font-size: 13px;
+    font-weight: 200;
+    align-items: center;
+    color: #cbcbcb;
+}
+
+.star {
+    width: 17px;
+    height: 17px;
+}
+
+.containerText{
+    position: absolute;
+    color: #FFFFFF;
+    left: 10px;
+    bottom: 15px;
+}
+.title {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.summary {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+}
