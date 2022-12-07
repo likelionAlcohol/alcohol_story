@@ -1,20 +1,12 @@
 import styles from '../css/InfoCard.module.css';
 import ReviewCard from './ReviewCard';
 import infoImage from '../../../data/infoImage.jpg';
-import HeartButton from '../../information/heartButton';
+import HeartButton from './HeartButton';
 import starGrey from '../../../data/starGrey.png';
 import {Link} from 'react-router-dom';
-import {useState} from 'react';
 
 
 function InfoCard(){
-
-    const [like, setLike] = useState(false)
-    
-    function toggleLike(){
-        setLike(!like);
-    }
-
     return(
         <div className={styles.infoCard}>
             <div className={styles.imageBox}>
@@ -23,7 +15,7 @@ function InfoCard(){
             <div className={styles.mainInfo}>
                 <div className={styles.mainInfoHeader}>
                     <div className={styles.title}>로얄 살루트 21년 산</div>
-                    <HeartButton like={like} onClick={toggleLike}/>
+                    <HeartButton/>
                 </div>
                 <div className={styles.subHeader}>
                     <div className={styles.category}>위스키</div>

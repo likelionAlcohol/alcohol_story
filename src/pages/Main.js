@@ -4,6 +4,7 @@ import {useEffect, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 
 function Main(){
+    //scroll하면 recommendation 페이지로 넘어가도록
     const navigate = useNavigate();
     const handleScroll = () => {
         const scrollHeight = document.documentElement.scrollHeight;
@@ -11,6 +12,7 @@ function Main(){
         const clientHeight = document.documentElement.clientHeight;
         if (scrollTop + clientHeight >= scrollHeight) {
           navigate(`/recommendation`);
+          //scroll 확인
           console.log('scroll');
         }
        };
@@ -22,11 +24,9 @@ function Main(){
         };
       });
     return(
-        <div>  
             <ContentsLayout activeHeader="main">
                 <MainCard/>
             </ContentsLayout>
-        </div>
     )
 
 }

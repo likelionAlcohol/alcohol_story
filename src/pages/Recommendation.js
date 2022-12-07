@@ -3,13 +3,11 @@ import ContentsLayout from '../component/shared/js/ContentsLayout';
 
 function Recommendation(){
     return(
-        <div>
             <ContentsLayout activeHeader="recommendation">
                 <GridCard/>
                 <GridCard/>
                 <GridCard/>
             </ContentsLayout>
-        </div>
     )
 }
 

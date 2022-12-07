@@ -4,12 +4,9 @@ import ContentsLayout from '../component/shared/js/ContentsLayout';
 
 function Information(){
     return(
-        <div>
             <ContentsLayout activeHeader="information">
                 <InfoLayout/>
             </ContentsLayout>
-            
-        </div>
     )
 }
 
