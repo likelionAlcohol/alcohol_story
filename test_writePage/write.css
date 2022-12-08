@@ -1,0 +1,163 @@
+header{
+  margin: 0;
+  padding: 10px;
+  color: #ffffff;
+}
+footer {
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+}
+aside{
+  margin: 0;
+  padding: 5px;
+  color: #ffffff;
+}
+section{
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+}
+
+
+
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-content:flex-start;
+  color:black;
+}
+
+header #box1 {
+  flex:11;
+  font-weight:bolder;
+}
+header #box2 {
+  flex:1;
+  font-weight:bolder;
+  text-align: right;
+}
+header #box3 {
+  flex:1;
+  font-weight:bolder;
+  text-align: right;
+}
+
+header #box4 {
+  flex:1;
+  text-align: right;
+  
+}
+
+.hero {
+  display:flex;
+  justify-content: space-between;
+  align-content:flex-start;
+  color:black;
+  border-bottom: solid 3px black;
+}
+.hero #box1{
+  font-weight:bolder;
+  font-size:20pt;
+  flex:8;
+}
+.hero #box2{
+  flex:1;
+  text-align: right;
+}
+.hero #box3{
+  flex:1;
+  text-align: right;
+}
+.content {
+  /* display:flex;
+  justify-content: space-between;
+  align-content:flex-start;
+  align-items:baseline; */
+  margin: 0;
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 13px;
+}
+
+.titleWrite {
+  color:black;
+  font-weight:bold;
+  margin-bottom: 15px;
+}
+
+.titleText {
+  width:90%;
+  height:30px;
+  background-color:#F2F2F2;
+  border-radius: 4px;
+  border:0px;
+}
+
+.content #box1{
+  font-weight:bolder;
+  font-size:20pt;
+  flex:8;
+}
+.content #box2{
+  flex:1;
+  font-size:8pt;
+  color:lightgray
+}
+.hashtag {
+
+  border-radius: 50px;
+}
+
+.sidebar {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+      
+}
+.photoTitle {
+  color:black;
+  font-weight: bolder;
+  margin-bottom:15px;
+}
+
+.contentText {
+  width:90%;
+  height:100px;
+  background-color: #F2F2F2;
+  border: 0px;
+  border-radius: 4px;
+  text-align:center;
+}
+.photoInput {
+  width: 90%;
+  height:200px;
+  background-color:#F2F2F2 ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.addPageButton {
+  border-radius: 4px;
+  background-color: #6D6D6D;
+  height:50px;
+  width:90%;
+  color:whitesmoke;
+  margin-top: 20px;
+}
+.finish {
+  border-radius: 4px;
+  background-color: black;
+  height:50px;
+  width:90%;
+  color:whitesmoke;
+  margin-top: 20px;
+}
+
+
+
+h1 {
+  font-size:14px;
+}
+
