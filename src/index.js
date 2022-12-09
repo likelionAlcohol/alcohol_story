@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
-import ScrollToTop from '../shared/js/ScrollToTop';
+import ScrollToTop from './component/shared/js/ScrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>

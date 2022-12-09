@@ -1,41 +1,36 @@
-import './write.css';
-import React from 'react';
-import newPage from './write';
+import styles from './write.module.css';
+import React, {useState} from 'react';
+import styled from 'styled-components';
+import AddPage from './AddPage';
 
-export class WriteInfo extends React.Component {
+const Page = styled.div`
+  padding: 28px;
+  font-family: 'Pretendard';
+`
 
+function WriteInfo() {
 
+    const [pageNum, setPageNum] = useState([0])
 
-  render() {
+    const addDiv = () => {
+      let pageArr = [...pageNum]
+      let num = pageArr.slice(-1)[0]
+      num += 1
+      pageArr[num] = num
+      setPageNum(pageArr)
+    }
     
-      return (
-        <div id='one'>
-          <div className='page'>
-            <section className='content'>
-              
-              <h2 className='titleWrite'>제목</h2>
-              <input className='titleText' type='text' placeholder='제목을 작성해주세요' />
-            </section>
-
-            <section className='sidebar'>
-              <div className='photoTitle'>사진</div>
-              <div className='photoInput'></div>
-            </section>
-
-            <section className='sidebar'>
-              <div className='photoTitle'>내용</div>
-              <input type='text' className='contentText' placeholder='어떤 내용을 작성하실건가요?' />
-            </section>
-
-            <section className='sidebar' id='buttonPlace'>
-              <button className='addPageButton' onClick={newPage}>페이지 추가</button>
-              <button className='finish' >완료</button>
-            </section>
-        </div>
-      </div>
-      )
-  }
-  
+    return (
+    <Page>
+      <AddPage pageNum={pageNum} />
+      <section className={styles.buttonArea} id='buttonPlace'>
+          <button className={styles.addPageButton} onClick={addDiv}>페이지 추가</button>
+          <button className={styles.finishButton} >완료</button>
+      </section>
+    </Page>
+    )
 }
+  
 
-export default WriteInfo
+
+export default WriteInfo;
