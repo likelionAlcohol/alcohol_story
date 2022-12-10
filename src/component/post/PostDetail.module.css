@@ -30,7 +30,8 @@
     color:#E6E6E6;
     background: none;
     padding: 7px 5px 5px 5px;
-    border: 0.1px solid #E6E6E6;
+    border: 0.1px solid #909090;
+    width: 45%;
     top: 320px;
     left: 20px;
 }

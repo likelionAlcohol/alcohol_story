@@ -10,7 +10,7 @@ function GridCard(){
         <div className={styles.card}>
             <div className={styles.header}>
                 <div className={styles.categoryName}>#당신께_추천하는_술</div>
-                <Link to='#' className={styles.more}>
+                <Link to='/category' className={styles.more}>
                     더보기<img src={arrow1} alt='더보기'/>
                 </Link>
             </div>

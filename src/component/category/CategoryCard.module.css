@@ -1,0 +1,73 @@
+.container{
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.categoryName {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* 카드 */
+
+
+.cardList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cardItem {
+    width: 170px;
+}
+
+.image {
+    width: 100%;
+}
+
+.imageWrapper{
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    bottom: 10px;
+    z-index: 100;
+}
+
+
+/* text */
+
+.infoBox {
+    margin-bottom: 20px;
+}
+
+.infoName{
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 5px 0px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

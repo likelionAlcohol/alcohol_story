@@ -6,7 +6,7 @@ import Information from './pages/Information';
 import Account from './pages/Account';
 import Post from './pages/Post';
 import WritingPost from './pages/WritePage';
-import WritingPage from './component/post/PostDetail';
+import Category from './pages/Category';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Route path="/account" element={<Account/>}/>
       <Route path="/post" element={<Post/>}/>
       <Route path="/write" element={<WritingPost />} />
+      <Route path="/category" element={<Category />} />
     </Routes>
   );
 }
