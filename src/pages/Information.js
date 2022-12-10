@@ -1,4 +1,4 @@
-import InfoLayout from '../component/shared/js/InfoLayout';
+import InfoLayout from '../component/information/InfoLayout';
 import ContentsLayout from '../component/shared/js/ContentsLayout';
 
 

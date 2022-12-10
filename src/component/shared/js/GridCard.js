@@ -18,11 +18,15 @@ function GridCard(){
             <div className={styles.body}>
                 <div className={styles.scrollList}>
                     <div className={styles.scrollItem}>
-                        <img className={styles.img}
-                        src={example}
-                        alt={`이미지`}/>
+                        <Link to='/information'>
+                            <img className={styles.img}
+                            src={example}
+                            alt={`이미지`}/>
+                        </Link>
                         <div className={styles.infoBox}>
+                        <Link to='/information' className={styles.link}>
                             <div className={styles.infoName}>로얄 살루트 21년산</div>
+                        </Link>
                             <div className={styles.reviewStars}>
                                 <img  src={starGrey} alt='1' className={styles.star}></img>
                                 <img  src={starGrey} alt='2' className={styles.star}></img>
@@ -35,11 +39,15 @@ function GridCard(){
                     </div>
                     
                     <div className={styles.scrollItem}>
-                        <img className={styles.img}
-                        src={example}
-                        alt={`이미지`}/>
+                    <Link to='/information'>
+                            <img className={styles.img}
+                            src={example}
+                            alt={`이미지`}/>
+                        </Link>
                         <div className={styles.infoBox}>
+                        <Link to='/information' className={styles.link}>
                             <div className={styles.infoName}>로얄 살루트 21년산</div>
+                        </Link>
                             <div className={styles.reviewStars}>
                                 <img  src={starGrey} alt='1' className={styles.star}></img>
                                 <img  src={starGrey} alt='2' className={styles.star}></img>
@@ -51,11 +59,15 @@ function GridCard(){
                         </div>
                     </div>
                     <div className={styles.scrollItem}>
-                        <img className={styles.img}
-                        src={example}
-                        alt={`이미지`}/>
+                    <Link to='/information'>
+                            <img className={styles.img}
+                            src={example}
+                            alt={`이미지`}/>
+                        </Link>
                         <div className={styles.infoBox}>
+                        <Link to='/information' className={styles.link}>
                             <div className={styles.infoName}>로얄 살루트 21년산</div>
+                        </Link>
                             <div className={styles.reviewStars}>
                                 <img  src={starGrey} alt='1' className={styles.star}></img>
                                 <img  src={starGrey} alt='2' className={styles.star}></img>

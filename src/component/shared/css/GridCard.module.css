@@ -51,3 +51,8 @@
 .infoName {
     font-weight: 600;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}

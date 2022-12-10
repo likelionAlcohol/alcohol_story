@@ -1,8 +1,8 @@
-import styles from '../css/InfoCard.module.css';
-import ReviewCard from './ReviewCard';
-import infoImage from '../../../data/infoImage.jpg';
-import HeartButton from './HeartButton';
-import starGrey from '../../../data/starGrey.png';
+import styles from './InfoCard.module.css';
+import ReviewCard from '../shared/js/ReviewCard';
+import infoImage from '../../data/infoImage.jpg';
+import HeartButton from '../shared/js/HeartButton';
+import starGrey from '../../data/starGrey.png';
 import {Link} from 'react-router-dom';
 
 
