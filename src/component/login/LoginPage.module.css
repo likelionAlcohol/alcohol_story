@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 180px 57px 430px 57px;
+}
+
+.loginInput {
+    width: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: 'Noto Serif KR', serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.id {
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    margin: 20px 0px 5px 0px;
+    font-family: 'Pretendard';
+    font-size: 16px;
+}
+
+.password{
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+.loginBtn{
+    width: 100%;
+    border: none;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.loginFooter{
+    text-decoration: none;
+    margin: 5px 0px 5px 0px;
+}
+
+
+.signup{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Pretendard';
+    padding-right: 9px;
+}
+
+.idSearch{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Pretendard';
+    padding-right: 9px;
+}
+
+.pwSearch{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Pretendard';
+}
