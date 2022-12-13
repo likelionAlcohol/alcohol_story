@@ -36,7 +36,7 @@ right: 0;
 display: flex;
 align-items: center;
 height: 55px;
-padding: 20px;
+padding: 20px ;
 border-bottom: ${props => props.activeHeader === 'signup'?'none':'2px solid black'};
 background-color: ${props => props.activeHeader === 'main'?'black':'white'};
 `
