@@ -16,8 +16,8 @@ function Header({activeHeader}){
         <Container activeHeader={activeHeader}>
             <IMG src={back} onClick={()=>navigate(-1)} activeHeader={activeHeader}/>
             {((activeHeader==='main')||(activeHeader==='recommendation'))?<Logo to='/' activeHeader={activeHeader}>술 이야기</Logo>:<Back onClick={()=>navigate(-1)}>{activeHeader==='signup'?'회원가입':'이전'}</Back>}
-            <Link to='#'><Search src={activeHeader==='main'?"data/searchIconWhite.png":"data/searchIcon.png"} activeHeader={activeHeader}/></Link>
-            <Link to='#'><Profile src={profile_image} activeHeader={activeHeader}/></Link>
+            <Link to='/search'><Search src={activeHeader==='main'?"data/searchIconWhite.png":"data/searchIcon.png"} activeHeader={activeHeader}/></Link>
+            <Link to='/login'><Profile src={profile_image} activeHeader={activeHeader}/></Link>
         </Container>
     )
 }

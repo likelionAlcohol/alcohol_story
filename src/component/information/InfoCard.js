@@ -61,6 +61,7 @@ function InfoCard(){
                         <Link to='#' className={styles.more}>모두보기</Link>
                     </div>
                     <ReviewCard/>
+                    <Link to='#' className={styles.write}>작성하기</Link>
                 </div>
             </div>
 

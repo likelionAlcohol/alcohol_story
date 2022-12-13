@@ -121,3 +121,10 @@
     font-weight: 500;
     color: #0070C9;
 }
+
+.write{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0070C9;
+    text-decoration: none;
+}
