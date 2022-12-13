@@ -12,6 +12,7 @@ import Login from './pages/Login';
 import MyProfile from './pages/MyProfile';
 import Signup from './pages/Signup';
 import Search from './pages/Search';
+import SignupPreference from './pages/SignupPreference';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/myprofile" element={<MyProfile />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/search" element={<Search />} />
+      <Route path="/signuppreference" element={<SignupPreference/>} />
     </Routes>
   );
 }

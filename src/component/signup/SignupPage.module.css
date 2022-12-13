@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 129px 57px 430px 57px;
+}
+
+.email{
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    margin: 20px 0px 5px 0px;
+    font-family: 'Pretendard';
+    font-size: 12px;
+}
+
+.password {
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    font-family: 'Pretendard';
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+}
+
+.accountName{
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 9px 15px;
+    font-family: 'Pretendard';
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+}
+
+/* 버튼 */
+
+.nextBtn{
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+    background-color: black;
+    color: white;
+    padding: 9px 0px;
+}
