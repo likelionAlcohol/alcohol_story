@@ -1,58 +1,37 @@
-.card{
-    padding: 20px 20px 20px 10px;
-    font-size: 14px;
-
+.cardBody {
+    padding: 10px 28px;
 }
 
-.more{
-    text-decoration: none;
-    color: #848484;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.header{
-    margin-bottom: 20px;
+.itemList {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
 }
 
-.categoryName {
-    font-family: 'Inter';
-    padding: 5px 10px;
-    border: 1px solid #000000;
-    border-radius: 16px;
-    box-sizing: border-box;
-    font-weight: 400;
+.item {
+    position: relative;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+}
+
+.infoBox {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-}
-
-
-.scrollList {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -ms-overflow-style: none;
-}
-
-.scrollList::-webkit-scrollbar{
-    display:none;
-  }
-
-
-.scrollItem {
-    flex: 0 0 auto;
-    padding-left: 10px;
-}
-
-.infoName {
-    font-weight: 600;
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-}
+    }

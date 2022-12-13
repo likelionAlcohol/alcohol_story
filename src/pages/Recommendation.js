@@ -1,12 +1,12 @@
-import GridCard from '../component/shared/js/GridCard';
+import RecommCard from '../component/recommendation/RecommCard';
 import ContentsLayout from '../component/shared/js/ContentsLayout';
 
 function Recommendation(){
     return(
             <ContentsLayout activeHeader="recommendation">
-                <GridCard/>
-                <GridCard/>
-                <GridCard/>
+                <RecommCard/>
+                <RecommCard/>
+                <RecommCard/>
             </ContentsLayout>
     )
 }

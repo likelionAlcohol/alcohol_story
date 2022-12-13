@@ -21,9 +21,6 @@ mask-image: linear-gradient(to bottom, black, black 60%, transparent);
 }
 
 .profileBox {
-    position: absolute;
-    top: 10px;
-    left: 10px;
     display: grid;
     grid-template-columns: 25px 195px 20px;
     font-size: 13px;
@@ -32,7 +29,22 @@ mask-image: linear-gradient(to bottom, black, black 60%, transparent);
     color: #cbcbcb;
 }
 
+.profileImg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.userName{
+    position: absolute;
+    top: 13px;
+    left: 40px;
+}
+
 .star {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     width: 17px;
     height: 17px;
 }

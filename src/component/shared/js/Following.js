@@ -1,11 +1,11 @@
-import accountProfile from '../../data/accountProfile.png';
+import accountProfile from '../../../data/accountProfile.png';
 
 import styled from 'styled-components';
-import styles from '../../component/account/Following.module.css';
+import styles from '../css/Following.module.css';
 import {useState} from 'react';
 
 
-function Following(){
+function Following({activeProfile}){
     const [follow,setFollow ] = useState(false);
 
     function followClick(){
@@ -37,7 +37,9 @@ function Following(){
             </div>
             </div>
             <div className={styles.buttons}>
-                <input type="button" value="팔로우" className={follow? styles.followClicked : styles.followBtn} onClick={followClick}/>
+                <p className={follow? styles.followClicked : styles.followBtn} onClick={followClick}>
+                    <input type="button" value="팔로우" onClick={followClick}/>
+                </p>
                 <div className={styles.message}>
                     메시지
                 </div>

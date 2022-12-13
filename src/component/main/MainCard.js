@@ -67,7 +67,7 @@ export default class MainCard extends Component {
                 <img src={item.url} alt={`${item.user}의 게시물`} className={styles.cardImage}/>
                 <div className={styles.containerInfo}>
                   <div className={styles.profileBox}>
-                    <img src={item.profile} alt={`${item.user}의 프로필`}/>
+                    <img className={styles.profileImg} src={item.profile} alt={`${item.user}의 프로필`}/>
                     <div className={styles.userName}>{item.user}</div>
                     <img src={Star} alt={'즐겨찾기'} className={styles.star}/>
                   </div>

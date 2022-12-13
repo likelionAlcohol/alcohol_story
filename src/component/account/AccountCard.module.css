@@ -1,15 +1,16 @@
 .body {
-    padding: 20px;
+    padding: 28px;
 }
 
 .contentsList {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .contentsItem {
-    width: 170px;
+    width: 48%;
 }
 
 .image {
@@ -19,11 +20,11 @@
 
 .titleBox{
     display: grid;
-    grid-template-columns: 130px 40px;
+    grid-template-columns: 80% 20%;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    margin: 5px 10px 20px 15px;
+    margin: 5px 0px 20px 0px;
 }
 
 .title {
@@ -31,4 +32,5 @@
     font-size: 14px;
     line-height: 17px;
     font-family: 'Pretendard';
+    margin-right: 10px;
 }
